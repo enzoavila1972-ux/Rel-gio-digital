@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Relógio Digital</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <main class="clock-card">
+    <div class="clock-display">
+      <span id="hours">00</span>:<span id="minutes">00</span>:<span id="seconds">00</span>
+      <span id="ampm"></span>
+    </div>
+    <div id="date" class="date-display">A carregar data...</div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
